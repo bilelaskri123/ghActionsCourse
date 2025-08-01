@@ -3,6 +3,8 @@ on:
     branches:
       - main
       - "release/**"
+    paths:
+      - "src/**"
   pull_request:
     branches:
       - main
