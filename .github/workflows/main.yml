@@ -1,6 +1,6 @@
 name: star event workflow
 on:
-  watch:
+  push:
 
 jobs:
   log-star-event:
