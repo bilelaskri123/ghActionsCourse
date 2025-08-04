@@ -3,6 +3,8 @@
 
 # src/test.sh
 OUTPUT=$(node - e "console.log((require('./app').greet('Bilel')))")
+echo "Output: $OUTPUT"
+
 EXPECTED_OUTPUT="Hello, Bilel!"
 if [ "$OUTPUT" == "$EXPECTED_OUTPUT" ]; then
   echo "Test passed!"
