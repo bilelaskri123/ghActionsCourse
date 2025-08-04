@@ -2,7 +2,7 @@
 # This is a simple test script for the greet function
 
 # src/test.sh
-OUTPUT=$(node - e "require('./app').greet('Bilel')")
+OUTPUT=$(node - e "console.log((require('./app').greet('Bilel')))")
 EXPECTED_OUTPUT="Hello, Bilel!"
 if [ "$OUTPUT" == "$EXPECTED_OUTPUT" ]; then
   echo "Test passed!"
