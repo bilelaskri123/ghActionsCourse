@@ -1,7 +1,7 @@
 name: Hourly Hello
 on:
   schedule:
-    - cron: '22 * * * *'  # Runs every hour
+    - cron: '35 7,8,9 * * *'  # Runs every hour
 
 jobs:
   say-hello:
