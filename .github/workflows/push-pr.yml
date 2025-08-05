@@ -1,3 +1,4 @@
+name: Push and Pull Request Workflow
 on:
   push:
     branches:
